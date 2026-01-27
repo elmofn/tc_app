@@ -1,0 +1,237 @@
+{
+	"welcomeScreen": {
+		"title": "We are TravelCash!",
+		"supportText": "Your Digital Travel Wallet, now easier to use and more convenient.",
+		"buttonCreateAccount": "Register",
+		"buttonActivateAccount": "Activate account",
+		"buttonSignIn": "Login",
+		"help": "I need help"
+	},
+	"contactDataScreen": {
+		"title": "Contact Information",
+		"description": "Please fill out all the fields to continue.",
+		"inputLabelName": "Full name",
+		"inputLabelPhone": "Mobile",
+		"inputLabelEmail": "E-mail",
+		"inputPlaceholderName": "Enter full name",
+		"inputPlaceholderPhone": "Enter mobile phone number",
+		"inputPlaceholderEmail": "example@gmail.com",
+		"buttonContinue": "Continue"
+	},
+	"codeValidationScreen": {
+		"title": "Verification Code",
+		"description": "Enter the verification code sent to your mobile via Email.",
+		"expireTime": "Code expiration time",
+		"buttonContinue": "Continue",
+		"erroCaractersNumber": "Passwords must be 4 digits long",
+		"erroPassIdentical": "Passwords must be identical",
+		"resendCode": "Resubmit code"
+	},
+	"codeActivationScreen": {
+        "title": "Account Activation",
+        "description": "Please use the code sent to your email to activate your account. After this step, your information will be auto-filled.",
+        "expireTime": "Code Expiration Time",
+        "buttonContinue": "Continue",
+		"error": "Error"
+    },
+	"setActivationPasswordScreen": {
+        "title": "Password",
+        "description": "Create a password to access your app account. Your password must be at least 4 digits long.",
+        "inputLabelPassword": "Password",
+        "inputLabelPasswordConfirm": "Confirm password",
+        "inputPlaceholderPassword": "Enter your password",
+        "buttonContinue": "Continue",
+		"erroLengh": "Password must be 4 digits long",
+		"identicalError": "Passwords must be identical",
+		"error": "Error"
+    },
+	"setPasswordScreen": {
+		"title": "Password",
+		"description": "Create a password with at least 4 numeric characters.",
+		"inputLabelPassword": "Password",
+		"inputLabelPasswordConfirm": "Enter your password again",
+		"inputPlaceholderPassword": "Type your password",
+		"buttonContinue": "Continue",
+		"erroCaractersNumber": "Passwords must be 4 digits long",
+		"attPass": "Passwords updated successfully!",
+		"identicalError": "Passwords must be identical",
+		"erroPassIdentical": "Passwords must be identical.",
+		"error": "Error",
+		"sucess": "Sucess"
+	},
+	"onboardingScreen": {
+		"stepOneTitle": "Discover TravelCash",
+		"stepOneSubtitle": "Use your credits on any tourism-related service, receive Cashback from our partners, and always have money to travel.",
+		"stepTwoTitle": "Use your Cashback to travel around the world!",
+		"stepTwoSubtitle": "You can use your credits in more than 600 thousand hotels, airline and bus tickets, travel packages and much more! ",
+		"stepThreeTitle": "Receive and use them as you wish",
+		"stepThreeSubtitle": "At TravelCash, your credits never expire! As long as you log in or make a transaction in your account at least once a year.",
+		"buttonContinue": "Next",
+		"buttonSkip": "Skip"
+	},
+	"signInScreen": {
+		"title": "Login",
+		"inputLabelEmail": "E-mail",
+		"inputLabelPassword": "Password",
+		"inputPlaceholderEmail": "example@gmail.com",
+		"inputPlaceholderPassword": "Type your password",
+		"buttonContinue": "Continue",
+		"supportTextCreateAccount": "Don’t have an account?",
+		"linkCreateAccount": "Register now!",
+		"biometryBottomSheetTitle": "Biometrics",
+		"biometryBottomSheetDescription": "Touch the fingerprint sensor",
+		"buttonUsePassword": "Password",
+		"passowrdBottomSheetTitle": "Type your password",
+		"forgotPasswordLink": "Forgot your password?",
+		"buttonSignIn": "Log in",
+		"linkGoHome": "Go to home",
+		"ivalidPassword": "Invalid email or password",
+		"error": "Error",
+		"unexpectederror": "An unexpected error has occurred, please try again later."
+	},
+	"homeScreen": {
+		"buttonStatement": "Statement",
+		"firstDepositCardText": "Make a deposit into your TravelCash account and increase your credits!",
+		"buttonFirstDeposit": "Deposit",
+		"travelCardBalanceText": "TravelCard Balance",
+		"travelCardActiveText": "Activate your TravelCard to enjoy all the benefits",
+		"buttonTravelCard": "Access TravelCard",
+		"buttonActiveTravelCard": "Activate travelcard",
+		"conciergeCardTitle": "Need support?",
+		"conciergeCardText": "Our Concierge team can help you!",
+		"buttonConcierge": "Chat with Concierge",
+		"buttonDeposit": "Deposit",
+		"conciergeMessage": "Hello concierge",
+		"goToWhatsApp": "Go to WhatsApp",
+		"goToVideoCall": "Start a Video call",
+		"titleCard": "Video Call",
+		"saldo": "Balance"
+	},
+	"highlightedCashbacks": {
+		"title": "Cashbacks em destaque",
+		"ratingCount": "opiniões"
+	},
+	"statement": {
+		"title": "Statement",
+		"balanceWallet": "Account Balance",
+		"balanceCard": "Card Balance",
+		"inputPlaceholderSearch": "Search for a transaction",
+		"EmptyTransactions": "There are no transactions",
+		"balanceInformation": "You can choose the currency and display, and the balance will be updated according to the dollar exchange rate. The balance expires after 12 months of inactivity.",
+		"balanceInformationTitle": "Your wallet is dollarized."
+	},
+	"depositValueScreen": {
+		"title": "Deposit amount",
+		"subtitle": "Enter the amount you wish to transfer to your TravelCash account. Remember that your balance will be in Dollars! The amount in other currencies will depend on the exchange rate.",
+		"accountBalance": "Account Balance:",
+		"inputLabelValue": "Deposit amount",
+		"inputPlaceholderValue": "Enter amount in R$",
+		"dollarConversion": "Conversion to Dollars: ",
+		"payment": "Payment",
+		"buttonContinue": "Continue",
+		"credit": "Credit",
+		"debit": "Debit"
+	},
+	"depositCardsScreen": {
+		"title": "Debit/Credit Card",
+		"subtitle": "Enter your card details to complete the transaction.",
+		"inputLabelCardNumber": "Card number",
+		"inputLabelName": "Cardholder name",
+		"inputLabelExpirationDate": "Expiration date",
+		"inputLabelCVV": "VCC",
+		"inputPlaceholderCardNumber": "Type the card number",
+		"inputPlaceholderName": "Type the name on the card",
+		"inputPlaceholderExpirationDate": "Month/year",
+		"inputPlaceholderCVV": "Code",
+		"inputLabelPaymentConditions": "Payment Conditions",
+		"inputLabelSaveThisCard": "Use this card for future transactions",
+		"buttonContinue": "Continue"
+	},
+	"depositPixScreen": {
+		"title": "Pix (Payment method only available in Brazil)",
+		"subtitle": "To make the payment via Pix, copy the code or scan the QR Code.",
+		"expirationTime": "Your Pix code expires in ",
+		"randomKey": "Pix key: ",
+		"copyKey": "Copy pix key",
+		"buttonContinue": "Continue",
+		"CopyAndPaste": "Copy and paste the pix key into your bank's app to make a deposit to your TravelCash wallet.",
+		"Success": "Success",
+		"CopyKey": "PIX key copied successfully.",
+		"description": "After making the deposit via PIX, send the transfer receipt to the concierge via e-mail to deposito@travelcash.me"
+	},
+	"myTravelCardHome": {
+		"title": "TravelCard",
+		"cardBalance": "Balance",
+		"buttonRecharge": "Charge credits",
+		"number": "Card Number: ",
+		"name": "Cardholder name: ",
+		"expirationDate": "Expiration date: ",
+		"cvv": "VCC: ",
+		"buttonBloq": "Block",
+		"buttonCopy": "Copy"
+	},
+	"myTravelCardRecharge": {
+		"title": "Charge your TravelCard",
+		"subtitle": "Type the amount you wish to transfer from your TravelCash account to your TravelCard. Remember that your balance will be in Dollars! The amount in other currencies will depend on the exchange rate.",
+		"accountBalance": "Account balance:",
+		"inputLabelValue": "Amount",
+		"inputPlaceholderValue": "Type amount in your local currency",
+		"dollarConversion": "Conversion to Dollars: ",
+		"buttonContinue": "Continue"
+	},
+	"profile": {
+		"title": "Profile",
+		"personalData": "Personal information",
+		"config": "Config",
+		"buttonLogout": "Logout",
+		"inputLabelName": "Full name",
+		"inputLabelPhone": "Mobile",
+		"inputLabelEmail": "E-mail",
+		"linkChangePassword": "Change password",
+		"buttonSave": "Save",
+		"inputLabelIdiom": "Language",
+		"inputLabelCurrency": "Currency",
+		"inputLabelEmailNotifications": "E-mail Notifications",
+		"inputLabelPushNotifications": "Push Notifications",
+		"inputLabelSMSNotifications": "SMS Notifications",
+		"inputLabelWhatsAppNotifications": "WhatsApp Notifications",
+		"deleteAccount": "Delete Account",
+		"logout": "Logout",
+		"sucessMessage": "The data has been updated!",
+		"titleSucess": "Success",
+		"confirm": "Are you sure you want to delete your account?",
+		"cancel": "Cancel",
+		"description": "Are you sure you want to logout?",
+		"yes": "YES",
+		"no": "NO",
+		"error": "Error"
+	},
+	"travelShopScreen": {
+		"conciergeCardText": "The concierge can assist you personally!",
+		"buttonConcierge": "Talk to Concierge",
+		"conciergeCardTitle": "Need help?",
+		"subTitle": "Here, you have access to our call center, and through our Concierge service, you can redeem your balance for accommodations, airline tickets, and everything else you need for your trip."
+	},
+	"conciergeBottomSheet": {
+		"conciergeTitle": "Here you can request a concierge to help you with whatever you need.",
+		"schedule": "Schedule video call",
+		"cancel": "Cancel",
+		"conciergeMessage": "Hello%20concierge"
+	},
+	"terms": {
+		"title": "Terms and conditions",
+		"acept": "I agree to the TravelCash Terms and Conditions of Use.",
+		"continue": "Continue",
+		"error": "Error"
+	},
+	"forgotPassword": {
+		"title": "Forgot Password",
+		"sendLink": "We sent a link to your email",
+		"redefinePassword": "so you can reset your password",
+		"expireTime": "Link expiration time"
+	},
+	"tabs": {
+		"extract": "Statement",
+		"deposit": "Deposit"
+	}
+}

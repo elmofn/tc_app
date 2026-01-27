@@ -1,0 +1,235 @@
+{
+	"welcomeScreen": {
+		"title": "Somos a TravelCash!",
+		"supportText": "Sua Carteira Digital de Viagens cada vez mais simples e prática.",
+		"buttonCreateAccount": "Cadastro",
+		"buttonActivateAccount": "Ativar conta",
+		"buttonSignIn": "Login",
+		"help": "Preciso de ajuda"
+	},
+	"contactDataScreen": {
+		"title": "Dados de Contato",
+		"description": "O preenchimento de todos os campos é obrigatório.",
+		"inputLabelName": "Nome Completo",
+		"inputLabelPhone": "Telefone/Celular",
+		"inputLabelEmail": "E-mail",
+		"inputPlaceholderName": "Digite o nome completo",
+		"inputPlaceholderPhone": "Digite o número de celular",
+		"inputPlaceholderEmail": "exemplo@gmail.com",
+		"buttonContinue": "Continuar"
+	},
+	"codeValidationScreen": {
+		"title": "Validação via Email",
+		"description": "Digite o código enviado para seu email.",
+		"expireTime": "Tempo de expiração do código",
+		"buttonContinue": "Continuar",
+		"resendCode": "Reenviar código"
+	},
+	"codeActivationScreen": {
+		"title": "Ativação da conta",
+		"description": "Utilize o código que foi enviado no seu e-mail para ativar a conta. Após essa etapa, seus dados serão preenchidos automaticamente.",
+		"expireTime": "Tempo de expiração do código",
+		"buttonContinue": "Continuar",
+		"error": "Erro"
+	},
+	"setPasswordScreen": {
+		"title": "Senha",
+		"description": "Crie uma senha com 4 dígitos numéricos para acessar sua conta no aplicativo.",
+		"inputLabelPassword": "Senha",
+		"inputLabelPasswordConfirm": "Digite sua senha novamente",
+		"inputPlaceholderPassword": "Digite sua senha",
+		"buttonContinue": "Continuar",
+		"erroCaractersNumber": "As senhas precisam ter 4 digitos",
+		"erroPassIdentical": "As senhas precisam ser idênticas",
+		"attPass": "Senhas atualizadas com sucesso!",
+		"identicalError": "As senhas precisam ser idênticas",
+		"error": "Erro",
+		"sucess": "Sucesso"
+	},
+	"setActivationPasswordScreen": {
+		"title": "Senha",
+		"description": "Cadastre a senha que deseja utilizar para acessar sua conta no aplicativo. Sua senha deve conter no mínimo 4 dígitos.",
+		"inputLabelPassword": "Senha",
+		"inputLabelPasswordConfirm": "Digite sua senha novamente",
+		"inputPlaceholderPassword": "Digite sua senha",
+		"buttonContinue": "Continuar",
+		"erroLengh": "As senhas precisam ter 4 digitos",
+		"identicalError": "As senhas precisam ser identicas",
+		"error": "Erro"
+	},
+	"onboardingScreen": {
+		"stepOneTitle": "Conheça a TravelCash",
+		"stepOneSubtitle": "Use seus créditos em qualquer serviço relacionado a turismo, receba Cashback dos nossos parceiros e tenha sempre dinheiro para viajar.",
+		"stepTwoTitle": "Use seu Cashback para viajar pelo mundo! ",
+		"stepTwoSubtitle": "Você pode utilizar seus créditos em mais de 600 mil hotéis, passagens aéreas e de ônibus, pacotes de viagens, ingressos de parques e muito mais! ",
+		"stepThreeTitle": "Receba e use como quiser",
+		"stepThreeSubtitle": "Na TravelCash, seus créditos nunca expiram! Desde que você faça pelo menos um login ou movimentação na conta por ano.",
+		"buttonContinue": "Continuar",
+		"buttonSkip": "Pular"
+	},
+	"signInScreen": {
+		"title": "Login",
+		"inputLabelEmail": "E-mail",
+		"inputLabelPassword": "Senha",
+		"inputPlaceholderEmail": "exemplo@gmail.com",
+		"inputPlaceholderPassword": "Digite sua senha",
+		"buttonContinue": "Continuar",
+		"supportTextCreateAccount": "Não possui uma conta?",
+		"linkCreateAccount": "Cadastre-se agora mesmo!",
+		"biometryBottomSheetTitle": "Biometria",
+		"biometryBottomSheetDescription": "Toque no censor de impressão digital",
+		"buttonUsePassword": "Utilizar senha",
+		"passowrdBottomSheetTitle": "Digite sua senha",
+		"forgotPasswordLink": "Esqueceu sua senha?",
+		"buttonSignIn": "Entrar",
+		"linkGoHome": "Voltar para home",
+		"ivalidPassword": "Email ou senha inválidos",
+		"error": "Erro",
+		"unexpectederror": "Um erro inesperado aconteceu, tente novamente mais tarde."
+	},
+	"homeScreen": {
+		"buttonStatement": "Extrato",
+		"firstDepositCardText": "Realize seu primeiro depósito para começar a usar sua conta TravalCash",
+		"buttonFirstDeposit": "Realizar depósito",
+		"travelCardBalanceText": "Saldo TravelCard",
+		"travelCardActiveText": "Ative seu TravelCard para aproveitar todos os beneficios",
+		"buttonTravelCard": "Acessar TravelCard",
+		"buttonActiveTravelCard": "Ativar TravelCard",
+		"conciergeCardTitle": "Precisa de ajuda?",
+		"conciergeCardText": "O concierge pode te ajudar pessoalmente!",
+		"buttonConcierge": "Conversar com Concierge",
+		"buttonDeposit": "Realizar depósito",
+		"conciergeMessage": "Olá%20concierge",
+		"goToWhatsApp": "Ir para WhatsApp",
+		"goToVideoCall": "Ir para Videochamada",
+		"titleCard": "Videochamada",
+		"saldo": "Saldo"
+	},
+	"highlightedCashbacks": {
+		"title": "Cashbacks em destaque",
+		"ratingCount": "opiniões"
+	},
+	"statement": {
+		"title": "Extrato",
+		"balanceWallet": "Saldo da conta",
+		"balanceCard": "Saldo do cartão",
+		"inputPlaceholderSearch": "Pesquise por uma transação",
+		"EmptyTransactions": "Não há transações",
+		"balanceInformation": "Você pode escolher a moeda e exibição, e o saldo será atualizado conforme a cotação do dólar. O saldo expira em 12 meses de inatividade.",
+		"balanceInformationTitle": "Sua wallet é dolarizada."
+	},
+	"depositValueScreen": {
+		"title": "Valor do depósito",
+		"subtitle": "Escolha o valor que deseja transferir para a sua conta TravelCash.",
+		"accountBalance": "Saldo na conta:",
+		"inputLabelValue": "Valor do depósito",
+		"inputPlaceholderValue": "Insira o valor do depósito em R$",
+		"dollarConversion": "Conversão em dólares: ",
+		"payment": "Pagamento",
+		"buttonContinue": "Continuar",
+		"credit": "Crédito",
+		"debit": "Débito"
+	},
+	"depositCardsScreen": {
+		"title": "Cartão de débito/crédito",
+		"subtitle": "Insira os dados do seu cartão para finalizar a compra.",
+		"inputLabelCardNumber": "Número do cartão",
+		"inputLabelName": "Nome no cartão",
+		"inputLabelExpirationDate": "Data de vencimento",
+		"inputLabelCVV": "CVV",
+		"inputPlaceholderCardNumber": "Insira o número do cartão",
+		"inputPlaceholderName": "Insira o nome do titular",
+		"inputPlaceholderExpirationDate": "MM/AA",
+		"inputPlaceholderCVV": "Insira o CVV",
+		"inputLabelPaymentConditions": "Condições de pagamento",
+		"inputLabelSaveThisCard": "Usar este cartão para compras futuras.",
+		"buttonContinue": "Continuar"
+	},
+	"depositPixScreen": {
+		"title": "Pix",
+		"subtitle": "Copie e cole esse código Pix no aplicativo do seu banco ou escaneie o QR Code.",
+		"expirationTime": "Seu código PIX expira em ",
+		"randomKey": "Chave pix: ",
+		"copyKey": "Copiar chave pix ",
+		"buttonContinue": "Continuar",
+		"CopyAndPaste": "Copie e cole a chave pix no aplicativo do seu banco para fazer um depósito na sua wallet TravelCash.",
+		"Success": "Sucesso",
+		"CopyKey": "Chave PIX copiada com sucesso.",
+		"description": "Após realizar o depósito via PIX, envie o comprovante de transferência para o concierge pelo e-mail deposito@travelcash.me"
+	},
+	"myTravelCardHome": {
+		"title": "TravelCard",
+		"cardBalance": "Saldo do cartão",
+		"buttonRecharge": "Carregar cartão",
+		"number": "Número: ",
+		"name": "Nome: ",
+		"expirationDate": "Validade: ",
+		"cvv": "CVV: ",
+		"buttonBloq": "Bloquear",
+		"buttonCopy": "Copiar"
+	},
+	"myTravelCardRecharge": {
+		"title": "Carregar TravelCard",
+		"subtitle": "Escolha o valor que deseja transferir da sua conta TravelCash para seu Travelcard.",
+		"accountBalance": "Saldo na conta:",
+		"inputLabelValue": "Valor da recarga",
+		"inputPlaceholderValue": "Insira o valor da recarga em R$",
+		"dollarConversion": "Conversão em dólares: ",
+		"buttonContinue": "Continuar"
+	},
+	"profile": {
+		"title": "Perfil",
+		"personalData": "Dados pessoais",
+		"config": "Configurações",
+		"buttonLogout": "Sair",
+		"inputLabelName": "Nome",
+		"inputLabelPhone": "Telefone/Celular",
+		"inputLabelEmail": "E-mail",
+		"linkChangePassword": "Alterar senha",
+		"buttonSave": "Salvar",
+		"inputLabelIdiom": "Idioma",
+		"inputLabelCurrency": "Moeda",
+		"inputLabelEmailNotifications": "Notificações por e-mail",
+		"inputLabelPushNotifications": "Notificações por push",
+		"inputLabelSMSNotifications": "Notificações por SMS",
+		"inputLabelWhatsAppNotifications": "Notificações por WhatsApp",
+		"deleteAccount": "Excluir conta",
+		"logout": "Logout",
+		"sucessMessage": "Os dados foram atualizados!",
+		"titleSucess": "Sucesso",
+		"confirm": "Tem certeza que deseja exluir a conta?",
+		"cancel": "Cancelar",
+		"description": "Tem certeza que deseja sair da sua conta?",
+		"yes": "SIM",
+		"no": "NÃO",
+		"error": "Erro"
+	},
+	"travelShopScreen": {
+		"conciergeCardText": "O concierge pode te ajudar pessoalmente!",
+		"buttonConcierge": "Conversar com Concierge",
+		"conciergeCardTitle": "Precisa de ajuda?",
+		"subTitle": "Aqui você tem acesso a nossa central de atendimento, que através do serviço do nosso Concierge você resgata seu saldo por hospedagem, passagens aéreas e tudo que precisa para sua viagem."
+	},
+	"conciergeBottomSheet": {
+		"conciergeTitle": "Aqui você pode solicitar um concierge para te ajudar com o que precisar.",
+		"schedule": "Agendar Videochamada",
+		"cancel": "Cancelar",
+		"conciergeMessage": "Olá concierge"
+	},
+	"terms": {
+		"title": "Termos e Condições",
+		"acept": "Eu aceito os Termos e Condições de Uso da TravelCash.",
+		"continue": "Continuar",
+		"error": "Erro"
+	},
+	"forgotPassword": {
+		"title": "Esqueceu a senha",
+		"sendLink": "Enviamos um link para seu email",
+		"redefinePassword": "para que você possa redefinir sua senha ",
+		"expireTime": "Tempo de expiração do link"
+	},
+	"tabs": {
+		"extract": "Extrato",
+		"deposit": "Depósito"
+	}
+}
