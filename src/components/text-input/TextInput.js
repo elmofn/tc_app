@@ -14,7 +14,8 @@ export const CustomTextInput = ({
 	customStyle,
 	autoCapitalize,
 	autoFocus,
-	maxLength
+	maxLength,
+	renderLeftAccessory, // <-- Prop recebida
 }) => {
 	return (
 		<View style={customStyle}>
@@ -25,24 +26,34 @@ export const CustomTextInput = ({
 			>
 				{label}
 			</CustomText>
-			<TextInput
-				style={styles.input}
-				value={value}
-				onChangeText={(text) => {
-					if (maskType) {
-						value = mask(text, maskType)
-						onChangeText(mask(text, maskType))
-						return
-					}
-					onChangeText(text)
-				}}
-				keyboardType={keyboardType}
-				secureTextEntry={secureTextEntry}
-				placeholder={placeholder}
-				autoCapitalize={autoCapitalize}
-				autoFocus={autoFocus}
-				maxLength={maxLength}
-			/>
+
+			{/* O 'styles.input' antigo agora é este 'styles.inputContainer' */}
+			<View style={styles.inputContainer}>
+				
+				{/* Renderiza o acessório (o DDI) se ele existir */}
+				{renderLeftAccessory && renderLeftAccessory()}
+
+				{/* O TextInput agora usa um novo estilo 'textInput' */}
+				<TextInput
+					style={styles.textInput} // <-- Usa o novo estilo flexível
+					value={value}
+					onChangeText={(text) => {
+						if (maskType) {
+							value = mask(text, maskType)
+							onChangeText(mask(text, maskType))
+							return
+						}
+						onChangeText(text)
+					}}
+					keyboardType={keyboardType}
+					secureTextEntry={secureTextEntry}
+					placeholder={placeholder}
+					autoCapitalize={autoCapitalize}
+					autoFocus={autoFocus}
+					maxLength={maxLength}
+					placeholderTextColor="#707A81" // Boa prática
+				/>
+			</View>
 		</View>
 	)
 }

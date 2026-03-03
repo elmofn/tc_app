@@ -13,7 +13,7 @@ export const PixScreen = ({ navigation }) => {
 	const { translate } = useTranslation('depositPixScreen')
 
 	const copyToClipboard = async () => {
-		await Clipboard.setStringAsync('48.895.840/0001-96');
+		await Clipboard.setStringAsync('63.999.715/0001-10');
 		setMessage({ message: translate('CopyKey'), title: translate('Success') })
 		setModalVisible(true)
 	};
@@ -40,7 +40,7 @@ export const PixScreen = ({ navigation }) => {
 						type="display"
 						customStyle={styles.pixKeyValue}
 					>
-						{translate('randomKey')} 48.895.840/0001-96
+						{translate('randomKey')} 63.999.715/0001-10
 					</CustomText>
 				</View>
 				<View style={{flexDirection: 'row', alignItems: "center"}} >
@@ -49,20 +49,7 @@ export const PixScreen = ({ navigation }) => {
 						type="display"
 						customStyle={styles.pixKeyText}
 					>
-						Razão Social: FREEDOM TRAVEL TECNOLOGIA LTDA
-					</CustomText>
-				</View>
-				<View style={{flexDirection: 'row', alignItems: "center"}} >
-					<CustomText
-						fontWeight="normal"
-						type="display"
-						customStyle={styles.pixKeyText}
-					>
-						Banco Inter – Cód. 077 
-						{'\n'}
-						Ag.: 0001-9
-						{'\n'}
-						Cc: 26825886-4
+						Razão Social: BESTPLACE TECNOLOGIA LTDA
 					</CustomText>
 				</View>
 				<View style={{flexDirection: 'row', alignItems: "center"}} >

@@ -2,6 +2,11 @@
   "expo": {
     "name": "TravelCashApp",
     "slug": "TravelCashApp",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "extra": {
+      "eas": {
+        "projectId": "32231918-f484-47e5-bf4c-8b3ad5f860ed"
+      }
+    }
   }
 }

@@ -32,4 +32,17 @@ export const styles = StyleSheet.create({
 		gap: 16,
 		marginBottom: 32,
 	},
+
+	// --- ESTILO ADICIONADO ---
+	countryPickerButton: {
+		// Estilo para o botão DENTRO do input
+		justifyContent: 'center',
+		alignItems: 'center',
+		paddingLeft: 12, // Espaçamento à esquerda (dentro da borda do input)
+		paddingRight: 8, // Espaçamento à direita
+		// Adiciona um divisor visual
+		borderRightWidth: 1,
+		borderRightColor: '#707A81', // Usei a cor da sua borda
+		marginRight: 8, // Espaço entre o divisor e o texto (placeholder)
+	},
 })
