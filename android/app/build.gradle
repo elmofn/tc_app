@@ -114,8 +114,8 @@ android {
         applicationId "com.travelcashapp"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 472
-        versionName '4.1.20251020'
+        versionCode 484
+        versionName '4.2.20260710'
     } 
     signingConfigs {
         release {
